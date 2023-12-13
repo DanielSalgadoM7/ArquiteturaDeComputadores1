@@ -15,8 +15,7 @@ Trabalho extra - Conversor Fracionário
 void decimalParaBinario(int numeroDecimal) {
     int numeroBinario[32];
     int indice = 0;
-
-    // Converte o número decimal para binário
+  
     while (numeroDecimal > 0) {
         numeroBinario[indice] = numeroDecimal % 2;
         numeroDecimal /= 2;
