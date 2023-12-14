@@ -7,6 +7,8 @@ Trabalho extra - Conversor Fracionário
   Aluno: Daniel Salgado - 821429
   Aluno: Gabriel Henrique Vieira - 775799
 
+Link no replit: https://replit.com/@DanielSalgadoM7/Teste-Claudio#main.c
+
 */
 
 #include <stdio.h>
