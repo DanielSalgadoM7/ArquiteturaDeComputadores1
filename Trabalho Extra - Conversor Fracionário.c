@@ -3,10 +3,10 @@
 Trabalho extra - Conversor Fracionário
 
   Professor: Cláudio Campos
-  Alunos: Caio Gomes -
-  Alunos: Daniel Salgado - 821429
-  Aluno: Gabriel Henrique Vieira -
-  
+  Aluno: Caio Gomes - 763989
+  Aluno: Daniel Salgado - 821429
+  Aluno: Gabriel Henrique Vieira - 775799
+
 */
 
 #include <stdio.h>
@@ -15,7 +15,7 @@ Trabalho extra - Conversor Fracionário
 void decimalParaBinario(int numeroDecimal) {
     int numeroBinario[32];
     int indice = 0;
-  
+
     while (numeroDecimal > 0) {
         numeroBinario[indice] = numeroDecimal % 2;
         numeroDecimal /= 2;
@@ -107,7 +107,7 @@ int main() {
       break;
 
     case 4:
-      printf("Saindo do programa. Até mais!\n");
+      printf("\nSaindo do programa. Até mais!\n");
     break;
 
     default:
